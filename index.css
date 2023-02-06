@@ -1,0 +1,457 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.nav {
+  font-family: "Poppins", sans-serif;
+
+  display: flex;
+  background: #2874f0;
+  color: #fff;
+  height: 8vh;
+}
+.flexbox {
+  display: flex;
+  width: 100%;
+  margin-right: 5%;
+}
+.flip {
+  margin-left: 10%;
+  font-family: cursive;
+  width: 10%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.flip img {
+  width: 75px;
+}
+.flip a {
+  color: #fff;
+  font-size: 11px;
+  font-style: italic;
+  margin-top: -1px;
+  text-decoration: none;
+}
+.flip a:hover {
+  text-decoration: underline;
+}
+.flip span {
+  color: #ffe500;
+  font-weight: 500;
+  margin-right: 2px;
+}
+.flip a img {
+  width: 10px;
+}
+.login a,
+.sell a,
+.more a,
+.cart a {
+  font-size: 16px;
+  color: white;
+  font-weight: 900;
+  text-decoration: none;
+}
+.login,
+.sell,
+.more,
+.cart {
+  display: grid;
+  height: 8vh;
+  place-items: center;
+  width: 25%;
+}
+.in {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.in input {
+  border-radius: 2px;
+  border: none;
+  box-shadow: 0px 0px 4px blue;
+  width: 92%;
+  height: 36px;
+  font-size: 14px;
+  outline: none;
+  position: relative;
+  right: 20px;
+  font-family: Roboto, Arial, sans-serif;
+}
+.in i {
+  position: absolute;
+  left: 50%;
+  color: #2874f0;
+  top: 2.8%;
+  font-size: 20px;
+  cursor: pointer;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  width: 50%;
+}
+.login_page a {
+  color: #2874f0;
+}
+.login {
+  overflow: hidden;
+  position: relative;
+}
+.login_page {
+  width: 100%;
+  height: 5vh;
+  margin: 9% auto;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  background: white;
+  color: #2874f0;
+}
+.login:hover {
+  overflow: visible;
+}
+.more {
+  display: grid;
+  grid-template-rows: 8vh 1fr;
+  overflow: hidden;
+}
+.more1 {
+  display: flex;
+  align-items: center;
+  margin: 10% 0;
+}
+.login h2 {
+  font-size: 16px;
+  font-weight: 900;
+}
+.cart i {
+  font-size: 14px;
+  margin-right: 8px;
+}
+.contents1 {
+  position: absolute;
+  top: -2%;
+  z-index: 1;
+  display: grid;
+  line-height: 50px;
+  position: relative;
+  width: 185%;
+  box-shadow: 0 4px 16px 0 rgb(0 0 0 / 20%);
+}
+.cart {
+  display: flex;
+}
+.more:hover {
+  overflow: visible;
+}
+.contents1 a {
+  background: #fff;
+  border-bottom: 1px solid #f0f0f0;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.contents1 a:hover,
+.contents11 a:hover {
+  background-color: #fafafa;
+}
+.contents11 {
+  z-index: 1;
+  background-color: #fff;
+  display: grid;
+  line-height: 50px;
+  position: relative;
+  width: 185%;
+  box-shadow: 0 4px 16px 0 rgb(0 0 0 / 20%);
+}
+.contents11 a {
+  background: #fff;
+  border-bottom: 1px solid #f0f0f0;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.items {
+  display: flex;
+  background-color: #fff;
+  justify-content: space-evenly;
+  height: 18vh;
+  align-items: center;
+
+  box-shadow: 0 1px 1px 0 rgb(0 0 0 / 16%);
+}
+.grocery,
+.beauty,
+.two_wheelers,
+.mobiles,
+.fashions,
+.electronicss,
+.homes,
+.appliances,
+.travel,
+.top_others {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  position: relative;
+}
+.items img {
+  height: 64px;
+  width: 64px;
+}
+.items a {
+  text-transform: capitalize;
+  text-decoration: none;
+  color: black;
+  font-size: 14px;
+  font-weight: 800;
+}
+.items a:hover {
+  color: #2874f0;
+}
+.slide img {
+  width: 100%;
+  height: 40vh;
+}
+.slide_container {
+  position: relative;
+  width: 100%;
+}
+.arrow {
+  cursor: pointer;
+  position: absolute;
+  top: 30%;
+  background-color: #fff;
+  padding: 38px 20px;
+  font-size: 25px;
+  font-weight: bold;
+  background-color: hsla(0,0%,100%,.98);
+  box-shadow: 1px 2px 10px -1px rgb(0 0 0 / 30%);
+}
+.arrow1{
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  z-index: 1;
+  background-color: #fff;
+  padding: 38px 20px;
+  font-size: 25px;
+  font-weight: bold;
+  background-color: hsla(0,0%,100%,.98);
+  box-shadow: 1px 2px 10px -1px rgb(0 0 0 / 30%);
+}
+.prev {
+  border-bottom-right-radius: 4px;
+    border-top-right-radius: 4px;
+  left: 0.5%;
+}
+.next{
+  right: 0.5%;
+  border-bottom-left-radius: 4px;
+    border-top-left-radius: 4px;
+}
+.slide {
+  display: none;
+  margin: 1% 0.5%;
+}
+body {
+  background-color: #f0f0f0;
+}
+#log1 {
+  grid-template-rows: 50px 50px;
+}
+
+.fashions,
+.electronicss,
+.homes,
+.beauty,
+.two_wheelers {
+  overflow: hidden;
+  align-items: center;
+  height: 100%;
+  justify-content: center;
+}
+.fas1,
+.electronic1,
+.home1,
+.beauty1,
+.two_wheelers1 {
+  display: flex;
+  flex-direction: column;
+}
+.fashions:hover,
+.electronicss:hover,
+.homes:hover,
+.beauty:hover,
+.two_wheelers:hover {
+  overflow: visible;
+}
+
+.subfashion {
+  z-index: 1;
+  background: #fff;
+  display: grid;
+  line-height: 45px;
+  box-shadow: 0 4px 4px 0 rgb(0 0 0 / 20%);
+  position: absolute;
+  top: 100%;
+  width: 15vw;
+}
+.subfashion a {
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+}
+.subfashion a:hover {
+  background-color: #fafafa;
+}
+.best_of_electronics {
+  display: flex;
+  background-color: #fff;
+  height: 352px;
+  position: relative;
+  margin: 1% 0%;
+}
+.column1 {
+  background-image: url(https://rukminim1.flixcart.com/fk-p-flap/278/278/image/7593e7b6640822c1.jpg?q=90);
+  background-position: 0px bottom;
+  background-repeat: no-repeat;
+  background-size: initial;
+  /* width: 230px; */
+  width: 15%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fff;
+  z-index: 1;
+}
+.column1 h2 {
+  font-family: Roboto, Arial, sans-serif;
+  margin: 35% 5% 10% 5%;
+  text-align: center;
+  font-size: 30px;
+  line-height: 1.38;
+  font-weight: 400;
+}
+.column1 button {
+  border-radius: 2px;
+  padding: 10px 20px;
+  font-size: 13px;
+  font-weight: 500;
+  background: #2874f0;
+  color: #fff;
+  box-shadow: 0 2px 4px 0 rgb(0 0 0 / 20%);
+  border: none;
+  cursor: pointer;
+}
+.column2 {
+  display: flex;
+  width: 85%;
+  overflow: hidden;
+  position: absolute;
+right: 0;
+left: 15%;
+
+}
+
+.col2 {
+  padding: 35px 15px;
+  display: inline-block;
+  vertical-align: top;
+  width: 100%;
+  max-height: 366px;
+  text-align: center;
+  cursor: pointer;
+}
+.img {
+  height: 200px;
+  width: 200px;
+}
+.img img {
+  margin: auto;
+  opacity: 1;
+  max-width: 100%;
+  max-height: 100%;
+}
+.img img:hover{
+  transition: 0.2s;
+  scale: 1.1;
+}
+.description h2:first-child {
+  font-family: Roboto, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 900;
+  margin-top: 15px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+#rate {
+  color: #388e3c;
+  font-weight: 500;
+  font-family: Roboto, Arial, sans-serif;
+
+  padding-top: 8px;
+  font-size: 16px;
+}
+.description h2:last-child {
+  opacity: 0.6;
+  font-family: Roboto, Arial, sans-serif;
+  padding-top: 7px;
+  font-size: 14px;
+}
+.prev1{
+  left: 29.4%;
+  border-bottom-right-radius: 4px;
+  border-top-right-radius: 4px;
+  display: none;
+}
+.next1{
+  right: 0.0260%;
+  border-bottom-left-radius: 4px;
+  border-top-left-radius: 4px;
+}
+.beautyproducts{
+  display: flex;
+  background-color: #fff;
+  height: 352px;
+  position: relative;
+  margin: 1% 0%;
+}
+#beautyprod{
+  background-image: url(https://rukminim1.flixcart.com/fk-p-flap/278/278/image/b84f1c22cce1a6a3.jpg?q=90);
+}
+@media screen and (max-width: 1100px) {
+  .in {
+    width: 30%;
+  }
+  .container {
+    width: 70%;
+  }
+  .items {
+    width: 130%;
+  }
+  .subfashion {
+    width: 30vw;
+  }
+
+  .contents1 {
+    top: 0%;
+  }
+}
+@media screen and (min-width: 1100px) and (max-width: 1500px) {
+  .in {
+    width: 40%;
+  }
+  .container {
+    width: 60%;
+  }
+  .contents1 {
+    top: 0%;
+  }
+}
