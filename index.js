@@ -63,8 +63,8 @@ let obj3={
     Printers:["./images/img3.webp","From ₹3999","HP"],
     Best_of_Hair_Dryers:["./images/img4.webp","From ₹549","realme,Philips & more"],
     Top_Deals_of_camera_Accessories:["./images/img5.webp","Shop Now","mi, realme"],
-    Best_of_shavers:["./images/img5.webp","From ₹1649","Philips % Havells"],
-    Premium_PowerBanks:["./images/img5.webp","Shop Now","Mi,realme &"]
+    Best_of_shavers:["./images/img6.webp","From ₹1649","Philips % Havells"],
+    Premium_PowerBanks:["./images/img7.webp","Shop Now","Mi,realme &"]
   },
   beautyproducts:{
     Coffee_Powder:["./images/imageb.webp","Upto 80% Off","Nescafe,Continental & More"],
